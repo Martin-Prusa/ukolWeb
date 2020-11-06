@@ -1,10 +1,30 @@
-.navigace{
-    width: 100%;
-    height: 30px;
-    background-color: grey;
-    align-content: center;
+body {
+    background-color:white;
 }
 
-.navigace ul li{
+
+.navigace{
+    width: 100%;
+    height: 40px;
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.navigace a{
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 38px;
+    color: greenyellow;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+.navigace a:hover {
+    background-color: greenyellow;
+    color: black;
 }

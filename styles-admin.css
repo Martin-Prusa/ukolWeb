@@ -1,0 +1,50 @@
+body {
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 400px;
+    height: 230px;
+    margin-top: 40px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    background-color: #494949;
+    color: greenyellow;
+}
+
+.login h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.login label {
+    display: inline-flex;
+    width: 70px;
+    align-items: center;
+    margin: 15px;
+}
+
+.login input {
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+}
+
+.login button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.tlacitko{
+    text-align: right;
+    padding-right: 10px;
+}
