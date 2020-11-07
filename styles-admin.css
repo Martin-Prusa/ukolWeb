@@ -13,6 +13,7 @@ body {
     border-radius: 10px;
     background-color: #494949;
     color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .login h1 {
@@ -25,6 +26,7 @@ body {
     width: 70px;
     align-items: center;
     margin: 15px;
+    font-size: 20px;
 }
 
 .login input {
