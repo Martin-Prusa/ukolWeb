@@ -4,35 +4,53 @@
     <meta charset="UTF-8">
     <title>Kontakt</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/096b910122.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navigace">
-        <div class="na">                
-            <a href="index.html">Úvod</a>
-            <a href="galerie.html">Galerie</a>
-            <a href="cenik.html">Ceník</a>
-            <a href="contact.html">Kontakt</a>
-        </div>
+<div class="navigace">
+    <div class="na">
+        <a href="index.html">Úvod</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="cenik.html">Ceník</a>
+        <a href="contact.html">Kontakt</a>
     </div>
+</div>
 
-    <h1 class="nadpis">Kontakt</h1>
-    <div  class="win">
-        <div class="okno">
-            <form>
-                <div><label for="jmeno">Jméno</label></div>
-                <input id="jmeno" name="jmeno" type="text" placeholder="Martin Novák">
-                <br>
-                <div><label for="email">E-mail</label></div>
-                <input id="email" name="email" type="email" placeholder="martin.novak@seznam.cz">
-                <br>
-                <div><label for="zprava">Zpráva</label></div>
-                <textarea id="zprava" name="zprava" type="text" placeholder="Dobrý den ..."></textarea>
-                <div class="odeslat"><button></button></div>
-            </form>
-        </div>
-        <div class="okno">
-            Zde bude e-mail, adresa, telefon
+<h1 class="nadpis">Kontakt</h1>
+<div class="win">
+    <div class="okno">
+        <form>
+            <div><label for="jmeno">Jméno</label></div>
+            <input id="jmeno" name="jmeno" type="text" placeholder="Martin Novák">
+            <br>
+            <div><label for="email">E-mail</label></div>
+            <input id="email" name="email" type="email" placeholder="martin.novak@seznam.cz">
+            <br>
+            <div><label for="zprava">Zpráva</label></div>
+            <textarea id="zprava" name="zprava" type="text" placeholder="Dobrý den ..."></textarea>
+            <div class="odeslat">
+                <button><i class="fas fa-paper-plane fa-2x" style="padding-right: 5px"></i></button>
+            </div>
+        </form>
+    </div>
+    <div class="okno">
+        <div class = "velkeokno">
+            <div class="contact-icon">
+                <i class="fas fa-location-arrow fa-5x"></i>
+            </div>
+            <div class="text"><p>Ulicová 234/6</p><p>140 00 Praha 4 - název části</p></div>
+            <br>
+            <div class="contact-icon">
+                <i class="fas fa-mobile fa-5x"></i>
+            </div>
+            <div class="text"><p><b>Jméno Příjmení</b></p><p>+420 605 423 789</p></div>
+            <br>
+            <div class="contact-icon">
+                <i class="fas fa-envelope fa-5x"></i>
+            </div>
+            <div class="text"><p>jmeno.prijmeni@gmail.com</p><p>nazevfirmy@firma.cz</p></div>
         </div>
     </div>
+</div>
 </body>
 </html>
