@@ -133,3 +133,26 @@ textarea {
     display: inline-block;
     width: 100px;
 }
+
+.info {
+    background-color: #494949;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 90%;
+    
+}
+
+.info h2{
+    color: greenyellow;
+    font-size: 35px;
+    text-align: center;
+}
+
+.info p {
+    color: greenyellow;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
