@@ -11,14 +11,17 @@ body {
 }
 
 .navigace .na{
-    width: 60%;
+    width: 100%;
     height: 40px;
     background-color: #494949;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border-radius: 50px;
-    border: 1px solid yellowgreen;
+    justify-content: space-between;
+    border: 1px solid greenyellow;
+}
+
+.navigace .na h1 {
+    color: greenyellow;
 }
 
 .navigace a{
@@ -28,7 +31,6 @@ body {
     width: 70px;
     height: 38px;
     color: greenyellow;
-    border-radius: 10%;
     text-decoration: none;
     transition: background-color 1s, color 1s;
 }
@@ -36,6 +38,14 @@ body {
 .navigace a:hover {
     background-color: greenyellow;
     color: black;
+}
+
+.header1 {
+    width: 40%;
+}
+.header2 {
+    width: 40%;
+    text-align: right;
 }
 
 .nadpis{
@@ -136,7 +146,7 @@ textarea {
 
 .info {
     background-color: #494949;
-    border: 1px solid yellowgreen;
+    border: 1px solid greenyellow;
     border-radius: 10px;
     margin-left: 5%;
     width: 90%;
@@ -161,6 +171,7 @@ textarea {
     display: flex;
     margin-top: 50px;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 iframe {
@@ -178,14 +189,13 @@ iframe {
 }
 
 footer {
-    color: yellowgreen;
-    background-color: #262626;
+    color: greenyellow;
+    background-color: #494949;
+    border:1px solid greenyellow;
     display: inline-flex;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    justify-content: center;
+    height: 40px;
+    justify-content: space-between;
     align-items: center;
 }
 
