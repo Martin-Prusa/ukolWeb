@@ -221,10 +221,15 @@ footer a {
 .hodiny-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 .hodiny {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: greenyellow;
-    width: 25%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
