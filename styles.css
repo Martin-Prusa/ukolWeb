@@ -66,14 +66,6 @@ body {
     color: greenyellow;
 }
 
-.nadpis2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-    font-size: 25px;
-    color: greenyellow;
-    font-weight: inherit;
-}
 
 .win {
     display: flex;
@@ -159,7 +151,7 @@ textarea {
     border-radius: 10px;
     margin-left: 5%;
     width: 90%;
-
+    margin-top: 70px;
 }
 
 .info h2{
@@ -189,13 +181,6 @@ iframe {
     border-radius: 10px;
 }
 
-.okno-galerie {
-    background-color: #494949;
-    border: 1px solid greenyellow;
-    border-radius: 10px;
-    width: 95%;
-    color: greenyellow;
-}
 
 footer {
     position: absolute;
@@ -232,4 +217,53 @@ footer a {
     width: 200px;
     height: 200px;
     border-radius: 100%;
+}
+
+.hodiny-bile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #494949;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    color: greenyellow;
+}
+
+.tabulka {
+    margin: 20px;
+    color: greenyellow;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: #494949;
+}
+
+table, td, tr {
+    border: 1px solid greenyellow;
+}
+
+td, tr {
+    padding: 10px;
+}
+
+thead tr {
+    font-size: 20px;
+    text-align: center;
+}
+
+.table-container {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obr-container {
+    text-align: center;
+}
+
+.obr {
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 30px;
 }
